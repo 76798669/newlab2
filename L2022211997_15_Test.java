@@ -12,6 +12,10 @@ public class L2022211997_15_Test {
      * 测试用例: version1 = "1.0", version2 = "1.0"
      * 期望返回值: 0
      */
+    
+    /**
+     * 写的挺好
+     */
     @Test
     public void testEqualVersions() {
         assertEquals(0, solution.compareVersion("1.0", "1.0"));
